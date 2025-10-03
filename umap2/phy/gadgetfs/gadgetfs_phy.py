@@ -101,6 +101,7 @@ class GadgetFsPhy(PhyInterface):
         'atmel_usba_udc',
         '20980000.usb',
         'fe980000.usb',
+        '3f980000.usb',
     ]
 
     def __init__(self, app, gadgetfs_dir='/dev/gadget'):
